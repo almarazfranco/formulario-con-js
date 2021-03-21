@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+body {
+  font-family: 'Slabo 27px', serif;
+  background-color: #e5e7e9; }
+
+.container {
+  width: 400px;
+  margin: 20px; }
+
+form .cont-input-1 {
+  padding: 20px;
+  border-radius: 4px 4px 0 0;
+  background-color: #FFF; }
+
+form .cont-input-1 .input-text input[type="text"],
+form .cont-input-1 .input-text input[type="email"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 13px 20px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #808b96;
+  font-size: 18px;
+  font-family: 'Slabo 27px', serif;
+  color: #2c3e50; }
+  form .cont-input-1 .input-text input[type="text"]:focus,
+  form .cont-input-1 .input-text input[type="email"]:focus{
+    color: #566573;
+    border-bottom: 2px solid #3498db; }
+
+form .cont-input-1 .input-radio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+form .cont-input-1 .input-radio input[type="radio"]{
+  display: none; }
+form .cont-input-1 .input-radio .label-radio {
+  display: inline-block;
+  width: 49.5%;
+  padding: 13px 15px;
+  background-color: #1c2833;
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer; }
+  form .cont-input-1 .input-radio input[type="radio"]:checked + .label-radio {
+    background-color: #d35400; }
+form .cont-input-1 .input-radio .label-hombre {
+  border-radius: 4px 0 0 4px; }
+form .cont-input-1 .input-radio .label-mujer {
+  border-radius: 0 4px 4px 0; }
+
+form .cont-input-1 .input-checkbox {
+  text-align: center; }
+form .cont-input-1 .input-checkbox label {
+  color: #566573;
+  margin-left: 5px;
+  font-size: 18px; }
+
+form .cont-input-1 .errores {
+  display: none;
+  margin-top: 20px;
+  background: #cf2413;
+  color: #FFF;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 4px; }
+
+form .cont-input-2 {
+  width: 100%; }
+form .cont-input-2 input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 13px 20px;
+  text-align: center;
+  background-color: #3498db;
+  outline: none;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 18px;
+  color: #FFF;
+  cursor: pointer; }
+  form .cont-input-2 input[type="submit"]:hover {
+    background-color: #2088cd; }

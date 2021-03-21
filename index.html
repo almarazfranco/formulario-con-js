@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario js</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="" name="formulario" id="formulario">
+        <div class="cont-input-1">
+          <div class="input-text">
+            <input type="text" class="input-text" placeholder="Nombre" name="nombre">
+            <input type="email" class="input-text" placeholder="Correo" name="correo">
+          </div>
+  
+          <div class="input-radio">
+            <input type="radio" name="sexo" id="hombre" class="radio-hombre" value="hombre">
+            <label for="hombre" class="label-radio label-hombre">Hombre</label>
+            <input type="radio" name="sexo" id="mujer" class="radio-mujer" value="mujer">
+            <label for="mujer" class="label-radio label-mujer">Mujer</label>
+          </div>
+  
+          <div class="input-checkbox">
+            <input type="checkbox" name="terminos" id="terminos">
+            <label for="terminos">Términos y condiciones.</label>
+          </div>
+  
+          <ul class="errores" id="errores"></ul>
+        </div>
+  
+        <div class="cont-input-2">
+          <input type="submit" name="enviar" id="enviar" value="Enviar">
+        </div>
+      </form>
+    </div>
+
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
